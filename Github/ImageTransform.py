@@ -11,7 +11,7 @@ def EM_normalize_old(DEM,dlgT):
     for d in DEM:
         rdem.append(d/np.max(d))
     # return np.array(rdem,dtype=np.float64)
-    return DEM
+    return DEM  
 
 def EM_normalize(DEM,dlgT):
     '''Normalise the pixel DEMs with the EM at those pixels
